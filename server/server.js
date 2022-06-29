@@ -5,7 +5,7 @@ mongoose.connect("mongodb://localhost/google-docs-clone")
 
 const io = require('socket.io')(4000, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3001",
     method: ["GET", "POST"],
   },
 })
